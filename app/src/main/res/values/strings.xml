@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="card_sexu_text">SEXUALIDADE</string>
+    <string name="card_pube_text">PUBERDADE</string>
+    <string name="card_vaci_text">VACINAÇÃO</string>
+    <string name="card_buca_text">SAÚDE BUCAL</string>
+    <string name="card_cresc_text">MEU CRESCIMENTO</string>
+    <string name="card_saud_text">DICAS DE SAÚDE</string>
+    <string name="card_dire_text">MEUS DIREITOS</string>
+    <string name="card_adol_text">ADOLESCÊNCIA</string>
+    <string name="activity_adol_name">Adolescência</string>
+    <string name="activity_dire_name">Meus Direitos</string>
+    <string name="activity_saud_name">Dicas de Saúde</string>
+    <string name="activity_sexu_name">Sexualidade</string>
+    <string name="activity_pube_name">Puberdade</string>
+    <string name="activity_vaci_name">Vacinação</string>
+    <string name="activity_buca_name">Saúde Bucal</string>
+    <string name="activity_cresc_name">Meu Crescimento</string>
+
+    <!-- Activity Adolescência -->
+    <string name="adol_text_title">Adolescência...Uma fase de construção!</string>
+    <string name="adol_text_1">Se buscarmos a definição de adolescência, vamos descobrir que a origem da palavra vem do Latim “ADOLESCENTIA”, que significa período da vida humana entre a infância e a fase adulta, marcada pelas transformações biológicas e comportamentais, ou seja, é um período de descobertas e mudanças.</string>
+    <string name="adol_text_2">A Organização Mundial de Saúde (OMS) define adolescência como sendo o período da vida que começa aos 10 anos e termina aos 19 anos completos. Para a OMS, a adolescência é dividida em três fases:
+\n\n•	Pré-adolescência – dos 10 aos 14 anos;
+\n•	Adolescência – dos 15 aos 19 anos completos;
+\n•	Juventude – dos 15 aos 24 anos.
+</string>
+    <string name="adol_text_3">Para manter de bem com a vida, você vai precisar ter uma vida saudável. E isso só dependerá de você. Sua família, a escola, os profissionais de saúde e a sociedade lhes fornecem apoio, mas o cuidado com seu corpo, seu emocional e com sua espiritualidade é primeiramente sua.</string>
+    <string name="adol_text_4">Vamos nos divertir. Gostaríamos de conhecer um pouco sobre você.</string>
+
+    <!-- Activity Vacinação -->
+    <string name="info_1_title">Papiloma Vírus Humano (HPV)</string>
+    <string name="info_1_message">O papiloma vírus humano pode causar diversos tipos de canceres (principalmente de colo do útero)  e verrugas genitais, este risco pode ser prevenido fazendo uso da vacina. Devem se vacinar contra: meninas de 9 a 14 anos e meninos de 11 a 14 anos, em duas doses sendo a segunda seis meses após a primeira.</string>
+    <string name="info_2_title">Hepatite B</string>
+    <string name="info_2_message">É uma doença grave, que ataca o fígado, um dos órgãos mais importantes do corpo humano. A Hepatite B é transmitida quando há contato com o sangue ou secreção corporais contaminadas pelo vírus, através do contato com mucosa ou pele com lesões ativas.</string>
+    <string name="info_3_title">Tétano</string>
+    <string name="info_3_message">É uma doença imunoprevenível, grave e potencialmente fatal, causada por uma toxina produzida por uma bactéria que pode contaminar ferimentos (mesmo pequenos). Esta bactéria é encontrada no ambiente (solo, esterco, superfície de objetos) sob a forma de esporos (formas de resistência).</string>
+    <string name="info_4_title">Difteria</string>
+    <string name="info_4_message">É uma doença provocada por uma bactéria que é transmitida por contato físico com um doente ou por respirar suas secreções. Permanece incubada por até seis dias multiplicando-se na faringe. Apesar de se manifestar o ano todo, a doença ataca principalmente nos períodos de outono e inverno.</string>
+    <string name="info_5_title">Febre Amarela</string>
+    <string name="info_5_message">É uma doença infecciosa causada por um vírus que por sua vez é transmitido por um mosquito e ocorre exclusivamente na América Central, na América do Sul e na África. No Brasil, a febre amarela é geralmente adquirida quando uma pessoa não vacinada entra em áreas de transmissão silvestre (regiões de cerrado, florestas). Uma pessoa não transmite febre amarela diretamente para outra. Para que isto ocorra, é necessário que o mosquito pique uma pessoa infectada e, após o vírus ter se multiplicado, pique um indivíduo que ainda não teve a doença e não tenha sido vacinado.</string>
+    <string name="info_6_title">Sarampo</string>
+    <string name="info_6_message">É uma doença infecciosa imunoprevenível, altamente transmissível, causado pelo vírus do sarampo. A doença que tem transmissão respiratória, geralmente ocorre na infância, mas pode também afetar adultos não imunes, que nunca tiveram a doença ou que não foram adequadamente vacinados. O sarampo ainda é uma das causas mais frequente de morte em crianças no mundo, consequência de falta de vacinação.</string>
+    <string name="info_7_title">Caxumba</string>
+    <string name="info_7_message">É uma doença infecciosa de transmissão respiratória. A infecção é causada pelo vírus da caxumba e frequentemente resulta em manifestações discretas e assintomáticas. A doença geralmente tem evolução benigna e é mais comum em crianças, mas pode ocorrer com maior gravidade em adultos não imunes. Durante a gravidez a infecção pelo vírus da caxumba pode resultar em aborto espontâneo e em geral ocorre apenas uma vez na vida.</string>
+    <string name="info_8_title">Rubéola</string>
+    <string name="info_8_message">É uma doença infecciosa de transmissão respiratória: A infecção é causada pelo vírus da rubéola, que frequentemente produz manifestações discretas ou ausentes se elas; manchas avermelhadas na pele. A doença é mais comum em crianças, mas pode ocorrer em adultos não imunes. Durante a gravidez, a infecção pode resultar em aborto, parto prematuro e malformações congênitas e em geral ocorre apenas uma vez na vida.</string>
+    <string name="info_9_title">Meningite</string>
+    <string name="info_9_message">A meningite bacteriana é uma infecção das meninges (membrana que recobre o cérebro) e da medula espinhal, podendo ser muito grave. Sendo o tipo C muito comum. Os adolescentes de 11 a 14 anos devem fazer um reforço se já tomaram ou a primeira dose.</string>
+    <string name="info_card_text_1">Papiloma Vírus Humano (HPV)</string>
+    <string name="minhas_vacinas_title">Informe as datas das doses recebidas ou agende as próximas doses.</string>
+    <string name="dose_1">1a DOSE</string>
+    <string name="dose_2">2a DOSE</string>
+    <string name="dose_3">3a DOSE</string>
+
+</resources>

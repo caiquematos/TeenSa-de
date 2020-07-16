@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_0"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/grid_layout_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="@string/minhas_vacinas_title"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="0dp"
+            android:textSize="@dimen/text_subtitle_size"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hepa_card_1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/title_margin_duplo_top"
+            android:layout_height="@dimen/dose_card_height"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:text="@string/dose_1"
+                    android:textSize="@dimen/text_subtitle_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:padding="24dp"
+                    android:textAlignment="textStart"
+                    android:gravity="start|center_vertical">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/hepa_text_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:text="DD/MM/YYYY"
+                    android:textSize="@dimen/text_subtitle_size"
+                    android:textStyle="bold"
+                    android:padding="24dp"
+                    android:textAlignment="textEnd"
+                    android:gravity="end|center_vertical">
+                </TextView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hepa_card_2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/title_margin_top"
+            android:layout_height="@dimen/dose_card_height"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:text="@string/dose_2"
+                    android:textSize="@dimen/text_subtitle_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:padding="24dp"
+                    android:textAlignment="textStart"
+                    android:gravity="start|center_vertical">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/hepa_text_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:text="DD/MM/YYYY"
+                    android:textSize="@dimen/text_subtitle_size"
+                    android:textStyle="bold"
+                    android:padding="24dp"
+                    android:textAlignment="textEnd"
+                    android:gravity="end|center_vertical">
+                </TextView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hepa_card_3"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/title_margin_top"
+            android:layout_height="@dimen/dose_card_height"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:text="@string/dose_3"
+                    android:textSize="@dimen/text_subtitle_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:padding="24dp"
+                    android:textAlignment="textStart"
+                    android:gravity="start|center_vertical">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/hepa_text_3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:text="DD/MM/YYYY"
+                    android:textSize="@dimen/text_subtitle_size"
+                    android:textStyle="bold"
+                    android:padding="24dp"
+                    android:textAlignment="textEnd"
+                    android:gravity="end|center_vertical">
+                </TextView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

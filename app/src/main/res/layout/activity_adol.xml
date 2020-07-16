@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdolActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/grid_layout_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adol_text_title"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/text_content_color"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textColor="@color/text_content_color"
+            android:text="@string/adol_text_1"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600px"
+            android:background="@drawable/adol_text"
+            android:layout_marginTop="@dimen/text_content_margin_top"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_content_color"
+            android:text="@string/adol_text_2"
+            android:layout_marginTop="@dimen/text_content_margin_top"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/card_view_padding"
+                android:background="@drawable/table_cell_2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_subtitle_size"
+                    android:text="E ai? Em que fase você está?"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/card_view_padding"
+                android:background="@drawable/table_cell">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pré-adolescência"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/card_view_padding"
+                android:background="@drawable/table_cell">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Adolescência"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/card_view_padding"
+                android:background="@drawable/table_cell">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Juventude"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_content_color"
+            android:text="@string/adol_text_3"
+            android:layout_marginTop="@dimen/text_content_margin_top"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adol_text_4"
+            android:textStyle="bold"
+            android:textColor="@color/text_content_color"
+            android:layout_marginTop="@dimen/text_content_margin_top"/>
+
+        <Button
+            android:id="@+id/adol_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:padding="@dimen/card_view_padding"
+            android:text="CLIQUE AQUI"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adolescencia.ConhecerActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/grid_layout_margin">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome Completo"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Idade"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:inputType="number"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Onde você mora?"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qual sua cor preferida?"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seu filme ou série favorita?"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O que você mais gosta de comer?"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quem é seu melhor amigo(a)?"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qual a profissão que quer seguir?"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qual a viagem dos seus sonhos?"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qual é seu livro favorito?"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qual a sua matéria favorita?"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Possui alergias?"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Onde é seu lugar favorito?"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:padding="@dimen/edit_text_padding"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:background="@drawable/edit_text"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

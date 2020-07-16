@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_1"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/grid_layout_margin"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/info_card_1_id"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/vaci_info_card_height"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/info_card_text_1"
+                android:textSize="@dimen/card_title_size"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/info_card_2_id"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/vaci_info_card_height"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hepatite B"
+                android:textSize="@dimen/card_title_size"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/info_card_3_id"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/vaci_info_card_height"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tétano"
+                android:textSize="@dimen/card_title_size"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/info_card_4_id"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/vaci_info_card_height"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Difteria"
+                android:textSize="@dimen/card_title_size"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/info_card_5_id"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/vaci_info_card_height"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Febre Amarela"
+                android:textSize="@dimen/card_title_size"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/info_card_6_id"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/vaci_info_card_height"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sarampo"
+                android:textSize="@dimen/card_title_size"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/info_card_7_id"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/vaci_info_card_height"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Caxumba"
+                android:textSize="@dimen/card_title_size"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/info_card_8_id"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/vaci_info_card_height"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rubéola"
+                android:textSize="@dimen/card_title_size"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/info_card_9_id"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/vaci_info_card_height"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Meningite"
+                android:textSize="@dimen/card_title_size"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

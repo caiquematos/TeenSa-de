@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.caique.teensade">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dialogs.DialActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".WelcActivity" />
+        <activity
+            android:name=".SexuActivity"
+            android:label="@string/activity_sexu_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PubeActivity"
+            android:label="@string/activity_pube_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Puberdade.BoyActivity"
+            android:label="Menino"
+            android:parentActivityName=".PubeActivity" />
+        <activity
+            android:name=".Puberdade.GirlActivity"
+            android:label="Menina"
+            android:parentActivityName=".PubeActivity" />
+        <activity android:name=".Puberdade.Menina.AttentionActivity"
+            android:parentActivityName=".Puberdade.GirlActivity"
+            android:label="Fique Ligada!"/>
+        <activity android:name=".Puberdade.Menina.TunerActivity"
+            android:parentActivityName=".Puberdade.GirlActivity"
+            android:label="Estágio de Tuner"/>
+        <activity android:name=".Puberdade.Menina.GenitActivity"
+            android:parentActivityName=".Puberdade.GirlActivity"
+            android:label="Genitália Feminina"/>
+        <activity android:name=".Puberdade.Menina.ChangeActivity"
+            android:parentActivityName=".Puberdade.GirlActivity"
+            android:label="Principais Mudanças"/>
+        <activity android:name=".Puberdade.Menina.BodyActivity"
+            android:parentActivityName=".Puberdade.GirlActivity"
+            android:label="Meu Corpo"/>
+        <activity
+            android:name=".VaciActivity"
+            android:label="@string/activity_vaci_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Vacinacao.GenderActivity"
+            android:label="Calendário"
+            android:parentActivityName=".VaciActivity" />
+        <activity
+            android:name=".Vacinacao.BoyActivity"
+            android:label="Menino"
+            android:parentActivityName=".Vacinacao.GenderActivity" />
+        <activity
+            android:name=".Vacinacao.GirlActivity"
+            android:label="Menina"
+            android:parentActivityName=".Vacinacao.GenderActivity" />
+        <activity
+            android:name=".Vacinacao.InfoActivity"
+            android:label="Informações"
+            android:parentActivityName=".VaciActivity" />
+        <activity
+            android:name=".Vacinacao.VacinasActivity"
+            android:label="Minhas Vacinas"
+            android:parentActivityName=".VaciActivity" />
+        <activity
+            android:name=".Vacinacao.MinhasVacinas.MeningoActivity"
+            android:label="Meningo C"
+            android:parentActivityName=".Vacinacao.VacinasActivity" />
+        <activity
+            android:name=".Vacinacao.MinhasVacinas.HPVActivity"
+            android:label="HPV"
+            android:parentActivityName=".Vacinacao.VacinasActivity" />
+        <activity
+            android:name=".Vacinacao.MinhasVacinas.DuplaActivity"
+            android:label="Dupla Adulto (dT)"
+            android:parentActivityName=".Vacinacao.VacinasActivity" />
+        <activity
+            android:name=".Vacinacao.MinhasVacinas.TripliceActivity"
+            android:label="Tríplice Viral"
+            android:parentActivityName=".Vacinacao.VacinasActivity" />
+        <activity
+            android:name=".Vacinacao.MinhasVacinas.FebreActivity"
+            android:label="Febre Amarela"
+            android:parentActivityName=".Vacinacao.VacinasActivity" />
+        <activity
+            android:name=".Vacinacao.MinhasVacinas.HepatiteActivity"
+            android:label="Hepatite B"
+            android:parentActivityName=".Vacinacao.VacinasActivity" />
+        <activity
+            android:name=".BucaActivity"
+            android:label="@string/activity_buca_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CresActivity"
+            android:label="@string/activity_cresc_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SaudActivity"
+            android:label="@string/activity_saud_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DireActivity"
+            android:label="@string/activity_dire_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AdolActivity"
+            android:label="@string/activity_adol_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Adolescencia.ConhecerActivity"
+            android:label="Conhecendo Você"
+            android:parentActivityName=".AdolActivity" />
+    </application>
+
+</manifest>

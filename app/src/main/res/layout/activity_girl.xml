@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vacinacao.GirlActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="@dimen/grid_layout_margin"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/text_content_margin_top"
+            android:background="@drawable/table_cell_2"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="IDADE"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="25"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="VACINA"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="25"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="PREVENÇÃO"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="25"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ESQUEMA"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="25"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="25"
+                android:background="@drawable/table_cell_2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="09 a 14 ANOS"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="75"
+                android:background="@drawable/table_cell"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="50"
+                    android:background="@drawable/table_cell">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="HPV"
+                        android:padding="@dimen/edit_text_padding"
+                        android:gravity="center"
+                        android:layout_weight="50"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Previne o papiloma, vírus humano que causa cânceres e verrugas genitais"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="2 doses (seis meses de intervalo entre as doses)"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="50"
+                    android:background="@drawable/table_cell">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Meningocócica C"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Previne doença invasiva causada por Neisseria meningitidis do sorogrupo C"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Dose única ou reforço (a depender da situação vacinal anterior)"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="25"
+                android:background="@drawable/table_cell_2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="10 a 19 ANOS"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="75"
+                android:background="@drawable/table_cell"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="50"
+                    android:background="@drawable/table_cell">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Hepatite B"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Previne contra a Hepatite B"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="3 doses (a depender da situação vacinal anterior)"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="50"
+                    android:background="@drawable/table_cell">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:text="Febre Amarela" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Previne contra a Febre Amarela"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="1 dose (a depender da situação vacinal anterior)"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="50"
+                    android:background="@drawable/table_cell">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Dupla Adulto (dT)"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Previne difteria e tétano"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Reforço a cada 10 anos"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="50"
+                    android:background="@drawable/table_cell">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:text="Triplice Viral (SRC)" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Previne contra caxumba, rubéola e Sarampo"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="2 doses (de acordo com a situação vacinal anterior)"
+                        android:gravity="center"
+                        android:padding="@dimen/edit_text_padding"
+                        android:layout_weight="50"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</HorizontalScrollView>
