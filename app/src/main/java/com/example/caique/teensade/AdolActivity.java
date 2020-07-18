@@ -3,9 +3,13 @@ package com.example.caique.teensade;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.example.caique.teensade.Adolescencia.ConhecerActivity;
 
@@ -16,6 +20,30 @@ public class AdolActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adol);
+        WebView webViewOne = findViewById(R.id.adol_web_1);
+        WebView webViewTwo = findViewById(R.id.adol_web_2);
+        WebView webViewThree = findViewById(R.id.adol_web_3);
+
+        String text;
+        text = "<html><body><p align=\"justify\">";
+        text+= getString(R.string.adol_text_1);
+        text+= "</p></body></html>";
+        webViewOne.loadData(text, "text/html", "utf-8");
+
+        String text2;
+        text2 = "<html><body><p align=\"justify\">";
+        text2+= getString(R.string.adol_text_2);
+        text2+="<br><br>•\tPré-adolescência – dos 10 aos 14 anos;";
+        text2+="<br><br>•\tAdolescência – dos 15 aos 19 anos completos;";
+        text2+="<br><br>•\tJuventude – dos 15 aos 24 anos.";
+        text2+= "</p></body></html>";
+        webViewTwo.loadData(text2, "text/html", "utf-8");
+
+        String text3;
+        text3 = "<html><body><p align=\"justify\">";
+        text3+= getString(R.string.adol_text_3);
+        text3+= "</p></body></html>";
+        webViewThree.loadData(text3, "text/html", "utf-8");
 
         mAdolBtn = findViewById(R.id.adol_btn);
         mAdolBtn.setOnClickListener(this);

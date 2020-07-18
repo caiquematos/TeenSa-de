@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:gravity="center_horizontal"
         android:padding="@dimen/grid_layout_margin">
 
         <TextView
@@ -17,7 +18,8 @@
             android:layout_marginTop="@dimen/text_content_margin_top"
             android:textStyle="bold"
             android:gravity="center"
-            android:text="TÍTULO GRANDE"/>
+            android:textColor="@color/black"
+            android:text="PRINCIPAIS MUDANÇAS NO CORPO DAS MENINAS"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -25,13 +27,14 @@
             android:textStyle="bold"
             android:gravity="center"
             android:layout_marginTop="@dimen/text_content_margin_top"
-            android:text="subtitulo"/>
+            android:textColor="@color/black"
+            android:text="Toque em cada ponto e identificará as alterações que acontecem no corpo da menina durante a puberdade."/>
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/text_content_margin_top"
-            android:background="@color/colorAccent"/>
+            android:background="@drawable/pub_menina"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -39,7 +42,8 @@
             android:textStyle="bold"
             android:gravity="center"
             android:layout_marginTop="@dimen/text_content_margin_top"
-            android:text="subtitulo"/>
+            android:textColor="@color/black"
+            android:text="Toque em cada ponto e conhecerá um pouco sobre cada parte do órgão genital feminino."/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 

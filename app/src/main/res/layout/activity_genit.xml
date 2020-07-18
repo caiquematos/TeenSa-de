@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:gravity="center_horizontal"
         android:padding="@dimen/grid_layout_margin">
 
         <TextView
@@ -17,14 +18,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/text_content_margin_top"
             android:textStyle="bold"
+            android:textColor="@color/black"
             android:gravity="center"
-            android:text="TÍTULO GRANDE"/>
+            android:text="OS ÓRGÃOS GENITAIS FEMININOS"/>
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/text_content_margin_top"
-            android:background="@color/colorAccent"/>
+            android:background="@drawable/pub_ultero"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -32,13 +34,14 @@
             android:layout_marginTop="@dimen/text_content_margin_top"
             android:textStyle="bold"
             android:gravity="center"
-            android:text="TÍTULO GRANDE"/>
+            android:textColor="@color/black"
+            android:text="GENITÁLIA FEMININA EXTERNA"/>
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/text_content_margin_top"
-            android:background="@color/colorAccent"/>
+            android:background="@drawable/pub_vagi"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 

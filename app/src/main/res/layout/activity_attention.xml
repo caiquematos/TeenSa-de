@@ -3,12 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Puberdade.Menina.BodyActivity">
+    tools:context=".Puberdade.Menina.BodyActivity"
+    android:background="@color/white">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
+        android:gravity="center_horizontal"
         android:padding="@dimen/grid_layout_margin">
 
         <TextView
@@ -16,75 +18,90 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:gravity="center"
-            android:text="TITLE"/>
+            android:textColor="@color/black"
+            android:text="FIQUE LIGADA!"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="subtitle"/>
+            android:layout_margin="@dimen/card_view_margin"
+            android:textColor="@color/black"
+            android:text="Espinhas?"/>
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:background="@color/colorAccent"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_view_margin"
+            android:background="@drawable/espinhas"/>
 
-        <TextView
+        <WebView
+            android:id="@+id/girl_attention_text_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="texto 1"
-            android:layout_marginTop="@dimen/text_content_margin_top"/>
+            android:padding="0dp"
+            android:background="@color/white"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:text="subtitle"/>
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="E a menstruação?"/>
 
-        <TextView
+        <WebView
+            android:id="@+id/girl_attention_text_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:text="texto 3"/>
+            android:padding="0dp"
+            android:background="@color/white"
+            />
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:background="@color/colorAccent"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_view_margin"
+            android:background="@drawable/menstruacao"/>
 
-        <TextView
+        <WebView
+            android:id="@+id/girl_attention_text_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:text="texto 4"/>
+            android:padding="0dp"
+            android:background="@color/white"
+            />
 
-        <TextView
+        <WebView
+            android:id="@+id/girl_attention_text_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:text="texto 5"/>
+            android:padding="0dp"
+            android:background="@color/white"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:text="subtitle"/>
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="Atenção!"/>
 
-        <TextView
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_view_margin"
+            android:background="@drawable/colica"/>
+
+        <WebView
+            android:id="@+id/girl_attention_text_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:text="texto 6"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:text="texto 7"/>
+            android:padding="0dp"
+            android:background="@color/white"
+            />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 

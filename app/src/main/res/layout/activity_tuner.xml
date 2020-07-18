@@ -17,16 +17,18 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/text_content_margin_top"
             android:textStyle="bold"
+            android:textColor="@color/black"
             android:gravity="center"
-            android:text="TÍTULO GRANDE"/>
+            android:text="ESCALA DE TURNER"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/text_content_margin_top"
             android:textStyle="bold"
+            android:textColor="@color/black"
             android:gravity="center"
-            android:text="subtitulo"/>
+            android:text="Acompanhe o desenvolvimento puberal ou chamada de maturação sexual feminina."/>
 
         <HorizontalScrollView
             android:layout_width="wrap_content"
@@ -39,15 +41,15 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_width="300dp"
-                    android:layout_height="400dp"
-                    android:background="@color/colorAccent"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/pub_escala_menina_1"/>
 
                 <ImageView
-                    android:layout_width="300dp"
-                    android:layout_height="400dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/text_content_margin_top"
-                    android:background="@color/colorAccent"
+                    android:background="@drawable/pub_escala_2"
                     android:layout_marginStart="@dimen/text_content_margin_top" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>

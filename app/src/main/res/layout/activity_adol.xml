@@ -3,48 +3,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdolActivity">
+    tools:context=".AdolActivity"
+    android:background="@color/white">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
         android:padding="@dimen/grid_layout_margin">
 
         <TextView
+            android:id="@+id/adol_text_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/adol_text_title"
             android:gravity="center"
             android:textStyle="bold"
             android:textColor="@color/text_content_color"
+            android:layout_margin="@dimen/card_view_margin"
             android:textSize="@dimen/text_subtitle_size"/>
 
-        <TextView
+        <WebView
+            android:id="@+id/adol_web_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:textColor="@color/text_content_color"
-            android:text="@string/adol_text_1"/>
+            android:padding="0dp"
+            android:background="@color/white"
+            />
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="600px"
-            android:background="@drawable/adol_text"
-            android:layout_marginTop="@dimen/text_content_margin_top"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_view_margin"
+            android:background="@drawable/adol_text"/>
 
-        <TextView
+        <WebView
+            android:id="@+id/adol_web_2"
+            android:padding="0dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_content_color"
-            android:text="@string/adol_text_2"
-            android:layout_marginTop="@dimen/text_content_margin_top"/>
+            android:background="@color/white"
+            />
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:layout_margin="@dimen/card_view_margin"
             android:orientation="vertical">
 
             <androidx.appcompat.widget.LinearLayoutCompat
@@ -57,7 +62,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/text_subtitle_size"
-                    android:text="E ai? Em que fase você está?"
+                    android:text="E aí? Em que fase você está?"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:gravity="center"/>
@@ -105,12 +110,13 @@
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
-        <TextView
+        <WebView
+            android:id="@+id/adol_web_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_content_color"
-            android:text="@string/adol_text_3"
-            android:layout_marginTop="@dimen/text_content_margin_top"/>
+            android:padding="0dp"
+            android:background="@color/white"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -118,15 +124,15 @@
             android:text="@string/adol_text_4"
             android:textStyle="bold"
             android:textColor="@color/text_content_color"
-            android:layout_marginTop="@dimen/text_content_margin_top"/>
+            android:layout_margin="@dimen/card_view_margin"/>
 
         <Button
             android:id="@+id/adol_btn"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:background="@color/colorAccent"
-            android:textColor="@color/white"
+            android:layout_margin="@dimen/card_view_margin"
+            android:background="@drawable/edit_text"
+            android:textColor="@color/colorAccent"
             android:padding="@dimen/card_view_padding"
             android:text="CLIQUE AQUI"/>
 

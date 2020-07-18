@@ -3,11 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Puberdade.Menina.BodyActivity">
+    tools:context=".Puberdade.Menina.BodyActivity"
+    android:background="@color/white">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="@dimen/grid_layout_margin">
 
@@ -16,32 +17,35 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:gravity="center"
-            android:text="Title"/>
+            android:layout_margin="@dimen/card_view_margin"
+            android:textColor="@color/black"
+            android:text="MEU CORPO"/>
 
-        <TextView
+        <WebView
+            android:id="@+id/girl_body_web_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="texto 1"
-            android:layout_marginTop="@dimen/text_content_margin_top"/>
+            android:padding="0dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:text="Título 2"/>
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="Sabe como isso acontece?"
+            android:textColor="@color/black"/>
 
-        <TextView
+        <WebView
+            android:id="@+id/girl_body_web_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:text="texto 3"/>
+            android:padding="0dp"/>
 
-        <TextView
+        <WebView
+            android:id="@+id/girl_body_web_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_content_margin_top"
-            android:text="texto 4"/>
+            android:padding="0dp"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 

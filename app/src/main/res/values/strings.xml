@@ -19,11 +19,10 @@
 
     <!-- Activity Adolescência -->
     <string name="adol_text_title">Adolescência...Uma fase de construção!</string>
-    <string name="adol_text_1">Se buscarmos a definição de adolescência, vamos descobrir que a origem da palavra vem do Latim “ADOLESCENTIA”, que significa período da vida humana entre a infância e a fase adulta, marcada pelas transformações biológicas e comportamentais, ou seja, é um período de descobertas e mudanças.</string>
+    <string name="adol_text_1">
+            Se buscarmos a definição de adolescência, vamos descobrir que a origem da palavra vem do Latim “ADOLESCENTIA”, que significa período da vida humana entre a infância e a fase adulta, marcada pelas transformações biológicas e comportamentais, ou seja, é um período de descobertas e mudanças.
+    </string>
     <string name="adol_text_2">A Organização Mundial de Saúde (OMS) define adolescência como sendo o período da vida que começa aos 10 anos e termina aos 19 anos completos. Para a OMS, a adolescência é dividida em três fases:
-\n\n•	Pré-adolescência – dos 10 aos 14 anos;
-\n•	Adolescência – dos 15 aos 19 anos completos;
-\n•	Juventude – dos 15 aos 24 anos.
 </string>
     <string name="adol_text_3">Para manter de bem com a vida, você vai precisar ter uma vida saudável. E isso só dependerá de você. Sua família, a escola, os profissionais de saúde e a sociedade lhes fornecem apoio, mas o cuidado com seu corpo, seu emocional e com sua espiritualidade é primeiramente sua.</string>
     <string name="adol_text_4">Vamos nos divertir. Gostaríamos de conhecer um pouco sobre você.</string>
@@ -52,5 +51,18 @@
     <string name="dose_1">1a DOSE</string>
     <string name="dose_2">2a DOSE</string>
     <string name="dose_3">3a DOSE</string>
+    <string name="girl_attention_text_5">
+        As cólicas são muito comuns nessa fase e, na maioria das vezes, não significam nenhum problema. Você pode usar compressas quentes no local da dor ou tomar um chá. Se não passar, é bom procurar um profissional de saúde para avaliar e orientar você sobre outros tratamentos. Não é justo ficar sofrendo, perder aula ou outras atividades prazerosas por causa de cólicas.
+    </string>
+    <string name="girl_attention_text_6">
+        Os absorventes devem ser trocados com frequência para evitar incômodo, mau cheiro e outros problemas decorrentes do uso prolongado. Procure usar o absorvente que melhor se adapte a seu corpo e à quantidade de fluxo menstrual.
+    </string>
+    <string name="girl_body_text_1">Quando vai chegando a adolescência o nosso corpo começa a se transformar, os seios começam a crescer, a primeira menstruação chega, os pelos aparecem, crescemos rapidamente, e nossos pensamentos, desejos e sentimentos já não são mais os mesmos e, é claro, estranhamos um pouco tudo isso e aparecem muitas dúvidas. Mas o que será que está acontecendo? É normal tudo isso?</string>
+    <string name="girl_body_text_2">Com certeza você já deve ter ouvido falar que nosso corpo produz substâncias chamadas hormônios. Os hormônios são “mensageiros químicos” muito importantes que influenciam na transformação do nosso corpo como, por exemplo, o hormônio do crescimento (Somatotrofina), produzido pelo celebro, assim como os hormônios sexuais, conhecidos como estrógeno e progesterona, que são produzidos pelo ovário da mulher.</string>
+    <string name="girl_body_text_3">Existem muitos outros hormônios, como a prolactina e os andrógenos, presentes tanto no corpo masculino quanto no corpo feminino, em diferentes quantidades, que também são responsáveis pela transformação de um corpo de criança, passando pela adolescência até chegar a ser um corpo de adulto. Neste processo, existem também outras substâncias chamadas de neurotransmissores que tem a função de, como a palavra já diz, transmitir os impulsos nervosos de uma célula a outro contribuindo assim com as mudanças e transformações do nosso corpo.</string>
+    <string name="girl_attention_text_1">Calma, isso não é o fim do mundo! Elas acontecem nessa fase e surgem pelo amadurecimento hormonal do seu corpo e pela oleosidade da pele. Nunca as esprema para não deixar cicatrizes. Uma boa dica: lavar o rosto 2 a 3 vezes ao dia com sabonete esfoliante ou neutro pode ajudar no controle da oleosidade. Se o problema incomodar, procure um serviço de saúde, pois existe tratamento, viu? Sem drama!</string>
+    <string name="girl_attention_text_2">A menstruação é a eliminação cíclica (mensal) de sangue e tecidos de dentro do útero pela vagina, a partir do amadurecimento dos órgãos sexuais e reprodutivos. Ela também é conhecida por nomes como “aqueles dias”, “chico”, “regras”, entre outros. Durante os dois primeiros anos, é normal que os ciclos menstruais (tempo que se passa entre uma menstruação e a próxima) sejam irregulares, podendo variar também na duração e na quantidade de sangramento.</string>
+    <string name="girl_attention_text_3">Nessa época, é interessante que você procure um profissional de saúde, pois ele pode dar boas orientações e tirar suas dúvidas. A menstruação normal tem duração de três a sete dias, com intervalos de 28 dias em média, podendo variar de 21 a 35 dias entre um ciclo e outro.</string>
+    <string name="girl_attention_text_4">A quantidade de sangramento é bastante variável. E depende de diversos fatores, como a quantidade de hormônios, uso de algumas medicações e a presença de doenças. Sendo assim, o ciclo menstrual normal pode variar, mês a mês. Entretanto, quando essa irregularidade permanece por um longo tempo, traz alguma dor, desconforto ou grande perda de sangue. Suas causas devem ser avaliadas por um profissional de saúde.</string>
 
 </resources>
