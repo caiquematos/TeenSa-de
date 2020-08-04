@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back_1"
+    android:background="@drawable/back_3"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -16,125 +16,155 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/boy_menu_card_1_id"
+            style="@style/CardViewStyle"
             android:layout_width="match_parent"
             android:layout_height="@dimen/vaci_info_card_height"
             app:cardElevation="@dimen/card_elevation"
             app:cardCornerRadius="@dimen/card_corner_radius"
             android:clickable="true"
-            android:focusable="true"
-            android:background="@color/white"
-            android:backgroundTint="@color/white">
+            android:focusable="true">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="MEU CORPO"
-                android:textSize="@dimen/card_title_size"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textAlignment="center"
-                android:gravity="center">
-            </TextView>
+                android:background="@drawable/card_corner">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="MEU CORPO"
+                    android:textSize="@dimen/item_title_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center">
+                </TextView>
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/boy_menu_card_2_id"
+            style="@style/CardViewStyle"
             android:layout_marginTop="@dimen/text_content_margin_top"
             android:layout_width="match_parent"
             android:layout_height="@dimen/vaci_info_card_height"
             app:cardElevation="@dimen/card_elevation"
             app:cardCornerRadius="@dimen/card_corner_radius"
             android:clickable="true"
-            android:focusable="true"
-            android:background="@color/white"
-            android:backgroundTint="@color/white">
+            android:focusable="true">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="PRINCIPAIS MUDANÇAS"
-                android:textSize="@dimen/card_title_size"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textAlignment="center"
-                android:gravity="center">
-            </TextView>
+                android:background="@drawable/card_corner">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="PRINCIPAIS MUDANÇAS"
+                    android:textSize="@dimen/item_title_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center">
+                </TextView>
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/boy_menu_card_3_id"
+            style="@style/CardViewStyle"
             android:layout_marginTop="@dimen/text_content_margin_top"
             android:layout_width="match_parent"
             android:layout_height="@dimen/vaci_info_card_height"
             app:cardElevation="@dimen/card_elevation"
             app:cardCornerRadius="@dimen/card_corner_radius"
             android:clickable="true"
-            android:focusable="true"
-            android:background="@color/white"
-            android:backgroundTint="@color/white">
+            android:focusable="true">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="GENITÁLIA MASCULINA"
-                android:textSize="@dimen/card_title_size"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textAlignment="center"
-                android:gravity="center">
-            </TextView>
+                android:background="@drawable/card_corner">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="GENITÁLIA MASCULINA"
+                    android:textSize="@dimen/item_title_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center">
+                </TextView>
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/boy_menu_card_4_id"
+            style="@style/CardViewStyle"
             android:layout_marginTop="@dimen/text_content_margin_top"
             android:layout_width="match_parent"
             android:layout_height="@dimen/vaci_info_card_height"
             app:cardElevation="@dimen/card_elevation"
             app:cardCornerRadius="@dimen/card_corner_radius"
             android:clickable="true"
-            android:focusable="true"
-            android:background="@color/white"
-            android:backgroundTint="@color/white">
+            android:focusable="true">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="ESTÁGIO DE TUNER"
-                android:textSize="@dimen/card_title_size"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textAlignment="center"
-                android:gravity="center">
-            </TextView>
+                android:background="@drawable/card_corner">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ESTÁGIO DE TANNER"
+                    android:textSize="@dimen/item_title_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center">
+                </TextView>
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/boy_menu_card_5_id"
+            style="@style/CardViewStyle"
             android:layout_marginTop="@dimen/text_content_margin_top"
             android:layout_width="match_parent"
             android:layout_height="@dimen/vaci_info_card_height"
             app:cardElevation="@dimen/card_elevation"
             app:cardCornerRadius="@dimen/card_corner_radius"
             android:clickable="true"
-            android:focusable="true"
-            android:background="@color/white"
-            android:backgroundTint="@color/white">
+            android:focusable="true">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="FIQUE LIGADO!"
-                android:textSize="@dimen/card_title_size"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textAlignment="center"
-                android:gravity="center">
-            </TextView>
+                android:background="@drawable/card_corner">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="FIQUE LIGADO!"
+                    android:textSize="@dimen/item_title_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center">
+                </TextView>
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 

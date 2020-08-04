@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".IstsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".AlimActivity"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,21 +40,26 @@
             android:name=".Puberdade.GirlActivity"
             android:label="Menina"
             android:parentActivityName=".PubeActivity" />
-        <activity android:name=".Puberdade.Menina.AttentionActivity"
-            android:parentActivityName=".Puberdade.GirlActivity"
-            android:label="Fique Ligada!"/>
-        <activity android:name=".Puberdade.Menina.TunerActivity"
-            android:parentActivityName=".Puberdade.GirlActivity"
-            android:label="Estágio de Tuner"/>
-        <activity android:name=".Puberdade.Menina.GenitActivity"
-            android:parentActivityName=".Puberdade.GirlActivity"
-            android:label="Genitália Feminina"/>
-        <activity android:name=".Puberdade.Menina.ChangeActivity"
-            android:parentActivityName=".Puberdade.GirlActivity"
-            android:label="Principais Mudanças"/>
-        <activity android:name=".Puberdade.Menina.BodyActivity"
-            android:parentActivityName=".Puberdade.GirlActivity"
-            android:label="Meu Corpo"/>
+        <activity
+            android:name=".Puberdade.Menina.AttentionActivity"
+            android:label="Fique Ligada!"
+            android:parentActivityName=".Puberdade.GirlActivity" />
+        <activity
+            android:name=".Puberdade.Menina.TunerActivity"
+            android:label="Estágio de Tuner"
+            android:parentActivityName=".Puberdade.GirlActivity" />
+        <activity
+            android:name=".Puberdade.Menina.GenitActivity"
+            android:label="Genitália Feminina"
+            android:parentActivityName=".Puberdade.GirlActivity" />
+        <activity
+            android:name=".Puberdade.Menina.ChangeActivity"
+            android:label="Principais Mudanças"
+            android:parentActivityName=".Puberdade.GirlActivity" />
+        <activity
+            android:name=".Puberdade.Menina.BodyActivity"
+            android:label="Meu Corpo"
+            android:parentActivityName=".Puberdade.GirlActivity" />
         <activity
             android:name=".VaciActivity"
             android:label="@string/activity_vaci_name"
@@ -123,6 +132,10 @@
             android:name=".Adolescencia.ConhecerActivity"
             android:label="Conhecendo Você"
             android:parentActivityName=".AdolActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

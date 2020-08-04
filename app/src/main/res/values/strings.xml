@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name"></string>
+    <string name="card_ists_text">ISTs</string>
+    <string name="card_alim_text">ALIMENTAÇÃO SAUDÁVEL</string>
     <string name="card_sexu_text">SEXUALIDADE</string>
     <string name="card_pube_text">PUBERDADE</string>
     <string name="card_vaci_text">VACINAÇÃO</string>

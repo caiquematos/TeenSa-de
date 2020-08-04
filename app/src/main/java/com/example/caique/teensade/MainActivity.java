@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private CardView mVaciCard;
     private CardView mPubeCard;
     private CardView mSexuCard;
+    private CardView mAlimCard;
+    private CardView mIstsCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mVaciCard = findViewById(R.id.vaci_card_id);
         mPubeCard = findViewById(R.id.pube_card_id);
         mSexuCard = findViewById(R.id.sexu_card_id);
+        mAlimCard = findViewById(R.id.alim_card_id);
+        mIstsCard = findViewById(R.id.ists_card_id);
 
         mAdolCard.setOnClickListener(this);
         mDireCard.setOnClickListener(this);
@@ -39,6 +43,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mVaciCard.setOnClickListener(this);
         mPubeCard.setOnClickListener(this);
         mSexuCard.setOnClickListener(this);
+        mAlimCard.setOnClickListener(this);
+        mIstsCard.setOnClickListener(this);
     }
 
     @Override
@@ -65,6 +71,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.sexu_card_id:
                 intent = new Intent(this,SexuActivity.class);
+                break;
+            case R.id.alim_card_id:
+                intent = new Intent(this,AlimActivity.class);
+                break;
+            case R.id.ists_card_id:
+                intent = new Intent(this,IstsActivity.class);
                 break;
             default:
                 intent = new Intent(this,AdolActivity.class);

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back_1"
+    android:background="@drawable/back_3"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -24,14 +24,14 @@
                 android:clickable="true"
                 android:focusable="true"
                 app:layout_gravity="fill"
-                android:background="@color/white"
-                android:backgroundTint="@color/white">
+                android:layout_margin="@dimen/card_view_margin">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/vaci_card_heigt"
                     android:gravity="center"
                     android:padding="@dimen/card_view_padding"
+                    android:background="@drawable/card_corner"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:orientation="vertical">
 
@@ -46,7 +46,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/text_content_margin_top"
                         android:text="CALENDÁRIO"
-                        android:textSize="@dimen/card_title_size"
+                        android:textSize="@dimen/item_title_size"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:textAlignment="center"
@@ -67,14 +67,14 @@
                 android:clickable="true"
                 android:focusable="true"
                 app:layout_gravity="fill"
-                android:background="@color/white"
-                android:backgroundTint="@color/white">
+                android:layout_margin="@dimen/card_view_margin">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/vaci_card_heigt"
                     android:padding="@dimen/card_view_padding"
                     android:gravity="center"
+                    android:background="@drawable/card_corner"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:orientation="vertical">
 
@@ -89,7 +89,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/text_content_margin_top"
                         android:text="INFORMAÇÕES"
-                        android:textSize="@dimen/card_title_size"
+                        android:textSize="@dimen/item_title_size"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:textAlignment="center"
@@ -110,14 +110,14 @@
                 android:clickable="true"
                 android:focusable="true"
                 app:layout_gravity="fill"
-                android:background="@color/white"
-                android:backgroundTint="@color/white">
+                android:layout_margin="@dimen/card_view_margin">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/vaci_card_heigt"
                     android:gravity="center"
                     android:padding="@dimen/card_view_padding"
+                    android:background="@drawable/card_corner"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:orientation="vertical">
 
@@ -132,7 +132,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/text_content_margin_top"
                         android:text="MINHAS VACINAS"
-                        android:textSize="@dimen/card_title_size"
+                        android:textSize="@dimen/item_title_size"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:textAlignment="center"

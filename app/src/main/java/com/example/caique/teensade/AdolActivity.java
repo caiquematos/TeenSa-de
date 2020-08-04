@@ -20,6 +20,7 @@ public class AdolActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adol);
+
         WebView webViewOne = findViewById(R.id.adol_web_1);
         WebView webViewTwo = findViewById(R.id.adol_web_2);
         WebView webViewThree = findViewById(R.id.adol_web_3);
