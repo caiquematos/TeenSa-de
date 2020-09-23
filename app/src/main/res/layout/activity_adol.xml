@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AdolActivity"
-    android:background="@color/white">
+    android:background="@drawable/fundoaltcut2">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -17,19 +17,20 @@
             android:id="@+id/adol_text_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/adol_text_title"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textColor="@color/text_content_color"
             android:layout_margin="@dimen/card_view_margin"
-            android:textSize="@dimen/text_subtitle_size"/>
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/adol_text_title"
+            android:textColor="@color/text_content_color"
+            android:textSize="@dimen/text_subtitle_size"
+            android:textStyle="bold" />
 
         <WebView
             android:id="@+id/adol_web_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="0dp"
-            android:background="@color/white"
+            android:background="@color/transparente"
             />
 
         <ImageView

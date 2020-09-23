@@ -1,9 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DireActivity">
+    tools:context=".DireActivity"
+    android:background="@color/white">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/grid_layout_margin">
+
+        <TextView
+            android:id="@+id/dire_text_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dire_text_title"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/text_content_color"
+            android:layout_margin="@dimen/card_view_margin"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_view_margin"
+            android:background="@drawable/dire1"/>
+
+        <WebView
+            android:id="@+id/dire_web_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:background="@color/white"
+            />
+
+        <Button
+            android:id="@+id/dire_btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_view_margin"
+            android:background="@drawable/edit_text"
+            android:textColor="@color/colorPrimary"
+            android:padding="@dimen/card_view_padding"
+            android:text="CONSTITUIÇÃO FEDERAL"/>
+
+        <Button
+            android:id="@+id/dire_btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_view_margin"
+            android:background="@drawable/edit_text"
+            android:textColor="@color/colorAccent"
+            android:padding="@dimen/card_view_padding"
+            android:text="ESTATUTO DA CRIANÇA E DO ADOLESCENTE"/>
+
+        <Button
+            android:id="@+id/dire_btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_view_margin"
+            android:background="@drawable/edit_text"
+            android:textColor="@color/fuchsia"
+            android:padding="@dimen/card_view_padding"
+            android:text="LEI 10.097/2000"/>
+
+        <Button
+            android:id="@+id/dire_btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_view_margin"
+            android:background="@drawable/edit_text"
+            android:textColor="@color/green"
+            android:padding="@dimen/card_view_padding"
+            android:text="DIREITOS A SAÚDE"/>
+
+        <Button
+            android:id="@+id/dire_btn_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_view_margin"
+            android:background="@drawable/edit_text"
+            android:textColor="@color/red"
+            android:padding="@dimen/card_view_padding"
+            android:text="DIREITOS E DEVERES"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

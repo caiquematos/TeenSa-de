@@ -1,9 +1,190 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SaudActivity">
+    tools:context=".SaudActivity"
+    android:background="@color/white">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/grid_layout_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_view_margin"
+            android:fontFamily="@font/coming_soon"
+            android:gravity="center"
+            android:text="DICAS DE SAÚDE"
+            android:textColor="@color/text_content_color"
+            android:textSize="@dimen/text_subtitle_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_view_margin"
+            android:background="@drawable/dica1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_view_margin"
+            android:fontFamily="casual"
+            android:text="•	Procure manter uma alimentação saudável."
+            android:textColor="@color/green"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_view_margin"
+            android:fontFamily="@font/coming_soon"
+            android:text="•	Beber água várias vezes ao dia também é essencial para o bom funcionamento do corpo."
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Movimentar-se, não ficar muitas horas em frente à TV ou computador."
+            android:textColor="@color/red"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Procurar praticar as atividades físicas que você mais gosta."
+            android:textColor="@color/fuchsia"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Evitar nadar sozinha e em lugares perigosos."
+            android:textColor="@color/lime"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	 Se proteger do sol nos horários mais quentes. Para isso  existem os filtros solares."
+            android:textColor="@color/green"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Lembre-se de que soltar pipas (papagaio, arraia ou pandorga) pode ser perigoso. Jamais use cerol e utilize sempre material seguro para sua proteção e proteção das outras pessoas."
+            android:textColor="@color/teal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Tenha muito cuidado com os fogos de artifício, pois podem queimar você e outras pessoas gravemente."
+            android:textColor="@color/colorAccent2"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Tomar banho diariamente também é muito importante para o cuidado com o corpo, além de fazer bem à aparência. "
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Cuide bem dos pés, das unhas e dos cabelos. Mantenha-os sempre limpos e saudáveis."
+            android:textColor="@color/red"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_view_margin"
+            android:background="@drawable/dica2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Nunca empreste ou tome emprestado de ninguém a escova de dentes, roupas íntimas ou de banho."
+            android:textColor="@color/green"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	O sono é muito importante. Procure dormir bem pelo menos oito horas por dia."
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Procure manter sua vacinação em dia de acordo com o calendário de vacinação do adolescente."
+            android:textColor="@color/fuchsia"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Não pegue carona com quem consumiu bebida alcoólica."
+            android:textColor="@color/lime"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Evite tomar medicamento sem orientação médica."
+            android:textColor="@color/teal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Sentimento de tristeza faz parte da vida, a gente sabe,  mas se ele demorar muito a passar, procure um adulto de  confiança para uma boa conversa ou um profissional  de saúde."
+            android:textColor="@color/yellow"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_view_margin"
+            android:background="@drawable/dica3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="•	Evite o cigarro, bebidas alcoólicas e outras drogas. Eles são prejudiciais a sua saúde física, mental e podem acabar  com seus projetos para o futuro."
+            android:textColor="@color/red"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

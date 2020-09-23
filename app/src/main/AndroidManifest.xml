@@ -9,9 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".IstsActivity"
+        <activity android:name=".Direitos.DeverActivity"></activity>
+        <activity android:name=".Direitos.DireSaudActivity" />
+        <activity android:name=".Direitos.LeiActivity" />
+        <activity android:name=".Direitos.EstatActivity" />
+        <activity android:name=".Direitos.ConstActivity" />
+        <activity android:name=".Puberdade.Menino.TannerActivity" />
+        <activity android:name=".Puberdade.Menino.HygiActivity" />
+        <activity android:name=".Puberdade.Menino.GenitActivity" />
+        <activity android:name=".Puberdade.Menino.ChangeActivity" />
+        <activity android:name=".Puberdade.Menino.BodyActivity" />
+        <activity android:name=".Puberdade.Menino.AttentionActivity" />
+        <activity
+            android:name=".IstsActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".AlimActivity"
+        <activity
+            android:name=".AlimActivity"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -43,6 +56,10 @@
         <activity
             android:name=".Puberdade.Menina.AttentionActivity"
             android:label="Fique Ligada!"
+            android:parentActivityName=".Puberdade.GirlActivity" />
+        <activity
+            android:name=".Puberdade.Menina.HygiActivity"
+            android:label="Higiene"
             android:parentActivityName=".Puberdade.GirlActivity" />
         <activity
             android:name=".Puberdade.Menina.TunerActivity"

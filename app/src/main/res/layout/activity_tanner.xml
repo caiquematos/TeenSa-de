@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Puberdade.Menino.ChangeActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/grid_layout_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="ESCALA DE TURNER"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="Acompanhe o desenvolvimento puberal ou chamada de maturação sexual masculina."/>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_content_margin_top"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/pub_escala_menino"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_content_margin_top"
+                    android:background="@drawable/pub_escala_men_2"
+                    android:layout_marginStart="@dimen/text_content_margin_top" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </HorizontalScrollView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

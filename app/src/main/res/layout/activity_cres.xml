@@ -1,9 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundoaltcut"
     tools:context=".CresActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="35"
+                android:padding="@dimen/grid_layout_margin">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sexo"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_subtitle_size"/>
+
+                <Spinner
+                    android:id="@+id/spinnerSexo"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/edit_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Idade"
+                    android:layout_marginTop="@dimen/text_content_margin_top"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_subtitle_size"/>
+
+                <EditText
+                    android:id="@+id/cres_idade_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:padding="@dimen/edit_text_padding"
+                    android:inputType="number"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/edit_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Peso"
+                    android:layout_marginTop="@dimen/text_content_margin_top"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_subtitle_size"/>
+
+                <EditText
+                    android:id="@+id/cresc_peso_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:padding="@dimen/edit_text_padding"
+                    android:maxLines="1"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/edit_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Altura"
+                    android:layout_marginTop="@dimen/text_content_margin_top"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_subtitle_size"/>
+
+                <EditText
+                    android:id="@+id/cres_altura_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:padding="@dimen/edit_text_padding"
+                    android:maxLines="1"
+                    android:inputType="numberDecimal"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/edit_text"/>
+
+                <Button
+                    android:id="@+id/cresc_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/title_margin_duplo_top"
+                    android:background="@color/teal"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="CALCULAR"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/grid_layout_margin"
+                android:gravity="center"
+                android:layout_weight="65"
+                android:background="@drawable/table_cell">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/grid_layout_margin"
+                    android:layout_gravity="center"
+                    android:background="@drawable/cresc"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/table_cell"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/cres_imc"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="35"
+                android:gravity="center"
+                android:text="--.--"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:padding="@dimen/grid_layout_margin"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/cres_message"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="65"
+                android:text="Faça o cálculo do seu IMC."
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:padding="@dimen/grid_layout_margin"
+                android:textColor="@color/purple"
+                android:textSize="@dimen/text_subtitle_size"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

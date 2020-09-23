@@ -11,6 +11,7 @@ import com.example.caique.teensade.Puberdade.Menina.AttentionActivity;
 import com.example.caique.teensade.Puberdade.Menina.BodyActivity;
 import com.example.caique.teensade.Puberdade.Menina.ChangeActivity;
 import com.example.caique.teensade.Puberdade.Menina.GenitActivity;
+import com.example.caique.teensade.Puberdade.Menina.HygiActivity;
 import com.example.caique.teensade.Puberdade.Menina.TunerActivity;
 import com.example.caique.teensade.R;
 import com.example.caique.teensade.Vacinacao.BoyActivity;
@@ -20,6 +21,7 @@ public class GirlActivity extends AppCompatActivity implements View.OnClickListe
     private CardView mChangesCard;
     private CardView mGeniCard;
     private CardView mTunerCard;
+    private CardView mHygiCard;
     private CardView mAttentionCard;
 
     @Override
@@ -31,11 +33,13 @@ public class GirlActivity extends AppCompatActivity implements View.OnClickListe
         mChangesCard = findViewById(R.id.girl_menu_card_2_id);
         mGeniCard = findViewById(R.id.girl_menu_card_3_id);
         mTunerCard = findViewById(R.id.girl_menu_card_4_id);
+        mHygiCard = findViewById(R.id.girl_menu_card_6_id);
         mAttentionCard = findViewById(R.id.girl_menu_card_5_id);
         mBodyCard.setOnClickListener(this);
         mChangesCard.setOnClickListener(this);
         mGeniCard.setOnClickListener(this);
         mTunerCard.setOnClickListener(this);
+        mHygiCard.setOnClickListener(this);
         mAttentionCard.setOnClickListener(this);
     }
 
@@ -54,6 +58,9 @@ public class GirlActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.girl_menu_card_5_id:
                 intent = new Intent(this, AttentionActivity.class);
+                break;
+            case R.id.girl_menu_card_6_id:
+                intent = new Intent(this, HygiActivity.class);
                 break;
             default:
                 intent = new Intent(this, BodyActivity.class);

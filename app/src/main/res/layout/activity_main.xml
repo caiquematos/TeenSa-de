@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back_3"
+    android:background="@drawable/fundoaltcut"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -20,7 +20,7 @@
             android:layout_margin="@dimen/title_margin_duplo_top"
             android:fontFamily="@font/aclonica"
             android:text="TEEN SAÚDE"
-            android:textColor="@color/colorAccent2"
+            android:textColor="@color/colorAccent"
             android:textSize="30sp"
             android:textStyle="bold" />
 
