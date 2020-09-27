@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Puberdade.Menina.BodyActivity"
-    android:background="@color/white">
+    android:background="@drawable/fundoaltcut2">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"

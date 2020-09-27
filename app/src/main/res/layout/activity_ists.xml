@@ -156,7 +156,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="HEPATITES VIRAIS"
+                    android:text="GONORREIA"
                     android:textSize="@dimen/item_title_size"
                     android:textStyle="bold"
                     android:textColor="@color/black"
@@ -187,7 +187,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="SÍFILIS"
+                    android:text="CLAMÍDIA"
                     android:textSize="@dimen/item_title_size"
                     android:textStyle="bold"
                     android:textColor="@color/black"
@@ -218,7 +218,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="GONORRÉIA"
+                    android:text="SIFILIS"
                     android:textSize="@dimen/item_title_size"
                     android:textStyle="bold"
                     android:textColor="@color/black"
@@ -249,7 +249,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="CLAMÍDIA"
+                    android:text="HERPES SIMPLES"
                     android:textSize="@dimen/item_title_size"
                     android:textStyle="bold"
                     android:textColor="@color/black"
@@ -280,7 +280,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="HERPES SIMPLES"
+                    android:text="HEPATITES VIRAIS"
                     android:textSize="@dimen/item_title_size"
                     android:textStyle="bold"
                     android:textColor="@color/black"

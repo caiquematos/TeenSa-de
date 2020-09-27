@@ -7,12 +7,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.caique.teensade.Puberdade.Menino.AttentionActivity;
-import com.example.caique.teensade.Puberdade.Menino.BodyActivity;
-import com.example.caique.teensade.Puberdade.Menino.ChangeActivity;
-import com.example.caique.teensade.Puberdade.Menino.GenitActivity;
-import com.example.caique.teensade.Puberdade.Menino.HygiActivity;
-import com.example.caique.teensade.Puberdade.Menino.TannerActivity;
+import com.example.caique.teensade.ISTs.IstEightActivity;
+import com.example.caique.teensade.ISTs.IstFiveActivity;
+import com.example.caique.teensade.ISTs.IstFourActivity;
+import com.example.caique.teensade.ISTs.IstNineActivity;
+import com.example.caique.teensade.ISTs.IstOneActivity;
+import com.example.caique.teensade.ISTs.IstSevenActivity;
+import com.example.caique.teensade.ISTs.IstSixActivity;
+import com.example.caique.teensade.ISTs.IstTenActivity;
+import com.example.caique.teensade.ISTs.IstThreeActivity;
+import com.example.caique.teensade.ISTs.IstTwoActivity;
 
 public class IstsActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -47,23 +51,35 @@ public class IstsActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         Intent intent;
         switch (view.getId()) {
-            case R.id.boy_menu_card_2_id:
-                intent = new Intent(this, ChangeActivity.class);
+            case R.id.ists_card_2_id:
+                intent = new Intent(this, IstTwoActivity.class);
                 break;
-            case R.id.boy_menu_card_3_id:
-                intent = new Intent(this, GenitActivity.class);
+            case R.id.ists_card_3_id:
+                intent = new Intent(this, IstThreeActivity.class);
                 break;
-            case R.id.boy_menu_card_4_id:
-                intent = new Intent(this, TannerActivity.class);
+            case R.id.ists_card_4_id:
+                intent = new Intent(this, IstFourActivity.class);
                 break;
-            case R.id.boy_menu_card_5_id:
-                intent = new Intent(this, AttentionActivity.class);
+            case R.id.ists_card_5_id:
+                intent = new Intent(this, IstFiveActivity.class);
                 break;
-            case R.id.boy_menu_card_6_id:
-                intent = new Intent(this, HygiActivity.class);
+            case R.id.ists_card_6_id:
+                intent = new Intent(this, IstSixActivity.class);
+                break;
+            case R.id.ists_card_7_id:
+                intent = new Intent(this, IstSevenActivity.class);
+                break;
+            case R.id.ists_card_8_id:
+                intent = new Intent(this, IstEightActivity.class);
+                break;
+            case R.id.ists_card_9_id:
+                intent = new Intent(this, IstNineActivity.class);
+                break;
+            case R.id.ists_card_10_id:
+                intent = new Intent(this, IstTenActivity.class);
                 break;
             default:
-                intent = new Intent(this, BodyActivity.class);
+                intent = new Intent(this, IstOneActivity.class);
         }
         startActivity(intent);
     }
