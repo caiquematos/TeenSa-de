@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sexualidade.LigadoActivity"
+    android:background="@drawable/fundoaltcut2">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/grid_layout_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="FIQUE LIGADO!"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:textColor="@color/black"
+            android:text="O que significa dupla proteção?"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_view_margin"
+            android:background="@drawable/sexu_dupla"/>
+
+        <WebView
+            android:id="@+id/sexu_ligado_web_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:background="@color/white"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="E se a camisinha falhar, o que eu faço?"/>
+
+        <WebView
+            android:id="@+id/sexu_ligado_web_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente"
+            />
+
+        <WebView
+            android:id="@+id/sexu_ligado_web_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

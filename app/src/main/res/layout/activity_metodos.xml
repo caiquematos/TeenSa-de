@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Sexualidade.MetodosActivity"
+    android:background="@drawable/fundoaltcut2">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/grid_layout_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/card_view_margin"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/item_title_size"
+            android:text="METODOS CONTRACEPTIVOS"/>
+
+        <WebView
+            android:id="@+id/metodos_menu_web_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente"/>
+
+        <WebView
+            android:id="@+id/metodos_menu_web_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente"/>
+
+        <WebView
+            android:id="@+id/metodos_menu_web_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente"/>
+
+        <WebView
+            android:id="@+id/metodos_menu_web_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente"/>
+
+        <WebView
+            android:id="@+id/metodos_menu_web_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente"/>
+
+        <WebView
+            android:id="@+id/metodos_menu_web_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente"/>
+
+        <WebView
+            android:id="@+id/metodos_menu_web_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente"/>
+
+        <WebView
+            android:id="@+id/metodos_menu_web_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sexu_img_2"
+                style="@style/CardViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/card_elevation"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_weight="50"
+                android:layout_margin="@dimen/card_view_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_big_item"
+                    android:background="@drawable/card_corner"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/sexu_1">
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/text_content_margin_top"
+                        android:text="Camisinha Masculina"
+                        android:textSize="@dimen/item_title_size"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sexu_img_3"
+                style="@style/CardViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/card_elevation"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_weight="50"
+                android:layout_margin="@dimen/card_view_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_big_item"
+                    android:background="@drawable/card_corner"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/sexu_2">
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/text_content_margin_top"
+                        android:text="Camisinha Feminina"
+                        android:textSize="@dimen/item_title_size"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sexu_img_4"
+                style="@style/CardViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/card_elevation"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_weight="50"
+                android:layout_margin="@dimen/card_view_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_big_item"
+                    android:background="@drawable/card_corner"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/sexu_3">
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/text_content_margin_top"
+                        android:text="Pílulas"
+                        android:textSize="@dimen/item_title_size"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sexu_img_5"
+                style="@style/CardViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/card_elevation"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_weight="50"
+                android:layout_margin="@dimen/card_view_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_big_item"
+                    android:background="@drawable/card_corner"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/sexu_4">
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/text_content_margin_top"
+                        android:text="DIU"
+                        android:textSize="@dimen/item_title_size"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sexu_img_6"
+            style="@style/CardViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_weight="50"
+            android:layout_margin="@dimen/card_view_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="@dimen/padding_big_item"
+                android:background="@drawable/card_corner"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/sexu_5">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_content_margin_top"
+                    android:text="Diafragma"
+                    android:textSize="@dimen/item_title_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center">
+                </TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sexu_img_7"
+            style="@style/CardViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/card_elevation"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_weight="50"
+            android:layout_margin="@dimen/card_view_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="@dimen/padding_big_item"
+                android:background="@drawable/card_corner"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/sexu_6">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_content_margin_top"
+                    android:text="Coito Interrompido"
+                    android:textSize="@dimen/item_title_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center">
+                </TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sexu_img_8"
+                style="@style/CardViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/card_elevation"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_weight="50"
+                android:layout_margin="@dimen/card_view_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_big_item"
+                    android:background="@drawable/card_corner"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/sexu_7">
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/text_content_margin_top"
+                        android:text="Injetável\n"
+                        android:textSize="@dimen/item_title_size"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sexu_img_9"
+                style="@style/CardViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/card_elevation"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_weight="50"
+                android:layout_margin="@dimen/card_view_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_big_item"
+                    android:background="@drawable/card_corner"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/sexu_9">
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/text_content_margin_top"
+                        android:text="Laqueadura/Vasectomia"
+                        android:textSize="@dimen/item_title_size"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sexu_img_1"
+                style="@style/CardViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:cardElevation="@dimen/card_elevation"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_weight="50"
+                android:layout_margin="@dimen/card_view_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_big_item"
+                    android:background="@drawable/card_corner"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@drawable/sexus_8">
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/text_content_margin_top"
+                        android:text="Tabelinha"
+                        android:textSize="@dimen/item_title_size"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

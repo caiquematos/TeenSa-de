@@ -39,8 +39,7 @@
             android:id="@+id/girl_attention_text_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="0dp"
-            android:background="@color/white"
+            android:background="@color/transparente"
             />
 
         <TextView
@@ -55,8 +54,7 @@
             android:id="@+id/girl_attention_text_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="0dp"
-            android:background="@color/white"
+            android:background="@color/transparente"
             />
 
         <ImageView
@@ -69,16 +67,14 @@
             android:id="@+id/girl_attention_text_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="0dp"
-            android:background="@color/white"
+            android:background="@color/transparente"
             />
 
         <WebView
             android:id="@+id/girl_attention_text_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="0dp"
-            android:background="@color/white"
+            android:background="@color/transparente"
             />
 
         <TextView
@@ -99,8 +95,7 @@
             android:id="@+id/girl_attention_text_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="0dp"
-            android:background="@color/white"
+            android:background="@color/transparente"
             />
 
     </androidx.appcompat.widget.LinearLayoutCompat>

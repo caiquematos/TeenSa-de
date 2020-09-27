@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Direitos.EstatActivity"
-    android:background="@color/white">
+    android:background="@drawable/fundoaltcut">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -33,16 +33,14 @@
             android:id="@+id/estatu_web_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="0dp"
-            android:background="@color/white"
+            android:background="@color/transparente"
             />
 
         <WebView
             android:id="@+id/estatu_web_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="0dp"
-            android:background="@color/white"
+            android:background="@color/transparente"
             />
 
     </androidx.appcompat.widget.LinearLayoutCompat>

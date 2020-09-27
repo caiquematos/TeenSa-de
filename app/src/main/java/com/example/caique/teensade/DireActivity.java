@@ -3,6 +3,7 @@ package com.example.caique.teensade;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
@@ -34,6 +35,8 @@ public class DireActivity extends AppCompatActivity implements View.OnClickListe
         text+= getString(R.string.dire_text_1);
         text+= "</p></body></html>";
         webViewOne.loadData(text, "text/html", "utf-8");
+        webViewOne.setBackgroundColor(Color.TRANSPARENT);
+        webViewOne.setLayerType(WebView.LAYER_TYPE_SOFTWARE, null);
 
         Button constitu = findViewById(R.id.dire_btn_1);
         Button estatuto = findViewById(R.id.dire_btn_2);

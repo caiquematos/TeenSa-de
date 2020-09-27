@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Alimentacao.PiramideActivity"
+    android:background="@drawable/fundoaltcut2">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/grid_layout_margin">
+
+        <TextView
+            android:id="@+id/dire_text_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pirâmide Alimentar"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/text_content_color"
+            android:layout_margin="@dimen/card_view_margin"
+            android:textSize="@dimen/text_subtitle_size"/>
+
+        <WebView
+            android:id="@+id/piramide_web_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/card_view_margin"
+            android:text="Os alimentos na pirâmide"
+            android:textColor="@color/black"/>
+
+        <WebView
+            android:id="@+id/piramide_web_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparente"
+            />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/card_view_margin"
+                android:background="@drawable/pira_1"/>
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="@dimen/card_view_margin"
+                android:layout_weight="25"
+                android:background="@drawable/dire1"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="75"
+                android:gravity="center"
+                android:background="@color/teal"
+                android:textColor="@color/white"
+                android:layout_margin="@dimen/card_view_margin"
+                android:textStyle="bold"
+                android:text="O nosso corpo precisa de TODOS os alimentos.\n\nTodos são muito importantes
+"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/grid_layout_margin"
+            android:background="@drawable/edit_text">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Você sabia..."
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_content_margin_top"
+                android:text="@string/alim_piramid_vc_sabia"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

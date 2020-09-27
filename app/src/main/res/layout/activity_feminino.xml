@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundoaltcut2"
+    tools:context=".Sexualidade.FemininoActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/grid_layout_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="CAMISINHA FEMININA"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_content_margin_top"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="O uso da camisinha significa amor próprio, autocuidado, respeito, proteção e carinho por você e pela outra pessoa."/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/title_margin_duplo_top"
+            android:background="@drawable/pub_escala_menina_1"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

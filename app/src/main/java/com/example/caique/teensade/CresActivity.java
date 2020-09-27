@@ -17,6 +17,9 @@ import java.text.DecimalFormat;
 public class CresActivity extends AppCompatActivity {
     private TextView mIMC;
     private TextView mMessage;
+    private EditText idadeET;
+    private EditText pesoET;
+    private EditText alturaET;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +30,9 @@ public class CresActivity extends AppCompatActivity {
         String[] lsSexo = getResources().getStringArray(R.array.lista_sexo);
         spinnerSexo.setAdapter(new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, lsSexo));
 
-        final EditText idadeET = findViewById(R.id.cres_idade_et);
-        final EditText pesoET = findViewById(R.id.cresc_peso_et);
-        final EditText alturaET = findViewById(R.id.cres_altura_et);
+        idadeET = findViewById(R.id.cres_idade_et);
+        pesoET = findViewById(R.id.cresc_peso_et);
+        alturaET = findViewById(R.id.cres_altura_et);
         mIMC = findViewById(R.id.cres_imc);
         mMessage = findViewById(R.id.cres_message);
 
@@ -37,14 +40,58 @@ public class CresActivity extends AppCompatActivity {
         calcularBT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Log.e("CRESCIMENTO", idadeET.getText() + "--idade--" +
+                Log.e("CRESCIMENTO", idadeET.getText() + "--idade--" +
                        pesoET.getText() + "--peso--" + alturaET.getText() + "--altura--" + spinnerSexo.getSelectedItem());
-               handleIMC(
-                       spinnerSexo.getSelectedItem().toString().charAt(0),
-                       Integer.parseInt(idadeET.getText().toString()),
-                       Double.parseDouble(alturaET.getText().toString()),
-                       Double.parseDouble(pesoET.getText().toString())
-               );
+
+                char sexo = spinnerSexo.getSelectedItem().toString().charAt(0);
+                int idade = -1;
+                double altura = -1;
+                double peso = -1;
+
+                View newView = null;
+                boolean cancel = false;
+                String error = "";
+
+                if (!alturaET.getText().toString().isEmpty()) {
+                    altura = Double.parseDouble(alturaET.getText().toString());
+                } else {
+                    cancel = true;
+                    newView = alturaET;
+                    error = "Qual a sua altura?";
+                }
+
+                if (!pesoET.getText().toString().isEmpty()) {
+                    peso = Double.parseDouble(pesoET.getText().toString());
+                } else {
+                    cancel = true;
+                    newView = pesoET;
+                    error = "Qual o seu peso?";
+                }
+
+                if (!idadeET.getText().toString().isEmpty()) {
+                    idade = Integer.parseInt(idadeET.getText().toString());
+                    if (idade < 10 || idade > 19) {
+                        cancel = true;
+                        newView = idadeET;
+                        error = "Sua idade deve ser maior ou igual a 10 anos e menor ou igual a 19!";
+                    }
+                } else {
+                    cancel = true;
+                    newView = idadeET;
+                    error = "Qual a sua idade?";
+                }
+
+                if (cancel) {
+                    newView.requestFocus();
+                    mMessage.setText(error);
+                } else {
+                    handleIMC(
+                            sexo,
+                            idade,
+                            altura,
+                            peso
+                    );
+                }
             }
         });
 
