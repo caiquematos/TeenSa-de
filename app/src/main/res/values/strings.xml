@@ -96,21 +96,21 @@
     <string name="dire_saud_text_4">•\tNas consultas, você tem direito de ser atendida sozinha, caso você queira, independentemente da presença de seus pais ou responsável legal, afinal, você deve ser a responsável por sua saúde.</string>
     <string name="dire_saud_text_5">•\tTodas as informações dadas durante a consulta serão mantidas em segredo e só poderão ser reveladas se você concordar ou se colocar em risco  vida de outras pessoas.</string>
     <string name="dire_saud_text_6">Outra coisa importante: No caso de internação em um hospital,o responsável que poderá ser seu pai, mãe ou uma outra pessoa poderá ficar cm você o tempo todo.</string>
-    <string name="alim_text_1">Os alimentos ajudam no crescimento, desenvolvem e fortalecem o corpo, retêm a energia que gastamos nas atividades diárias, como andar, brincar, estudar, trabalhar, dançar... Também podem ajudar a prevenir doenças.</string>
+    <string name="alim_text_1">Os alimentos ajudam no crescimento, desenvolvem e fortalecem o corpo, retêm a energia que gastamos nas atividades diárias, como andar, brincar, estudar, trabalhar, dançar… Também podem ajudar a prevenir doenças.</string>
     <string name="alim_text_2">Muitas vezes você já deve ter se perguntado por que todos insistem em falar sobre alimentação saudável, não é?</string>
     <string name="alim_text_3">Isso acontece porque existe uma relação direta entre a sua alimentação/nutrição, saúde e bem-estar físico e mental! Ou seja, alimentar-se é um passo muito importante para você estar vivo, sadio e feliz!</string>
     <string name="alim_text_4">Além disso, a alimentação tem que ser gostosa e fazer parte da história da sua família.</string>
     <string name="alim_text_5">Aproveite a hora das refeições! Reúna a família e torne este momento o mais agradável possível. Isto tornará sua alimentação ainda mais saudável.</string>
     <string name="alim_text_6">Mas como saber se a minha alimentação está legal? Será que estou comendo o que preciso para me desenvolver bem? Calma!</string>
     <string name="alim_text_7">Para isso, vamos apresentar um guia para ajudar a você, sua família e seus amigos a esclarecer essas e outras dúvidas.</string>
-    <string name="alim_piramid_vc_sabia">...a água é tão importante quanto os alimentos e seus nutrientes. O corpo humano tem na sua composição 75% de água.\n\n ...que a melancia tem aproximadamente 92% de água! Ela contém potássio, que é importante para seus músculos e nervos.\n\n...o maracujá é rico em vitaminas do complexo B, vitamina A e vitamina C. Ele é, no entanto, mais conhecido por suas supostas propriedades calmantes\n\n...que o caju não é um fruto?! Mas sim um pseudofruto. O propriamente dito fruto do cajueiro é a castanha do caju.</string>
+    <string name="alim_piramid_vc_sabia">…a água é tão importante quanto os alimentos e seus nutrientes. O corpo humano tem na sua composição 75% de água.\n\n …que a melancia tem aproximadamente 92% de água! Ela contém potássio, que é importante para seus músculos e nervos.\n\n…o maracujá é rico em vitaminas do complexo B, vitamina A e vitamina C. Ele é, no entanto, mais conhecido por suas supostas propriedades calmantes\n\n…que o caju não é um fruto?! Mas sim um pseudofruto. O propriamente dito fruto do cajueiro é a castanha do caju.</string>
     <string name="alim_piramid_text_1">É uma forma ilustrativa de como devemos comer no dia-a-dia. Não é uma norma rígida, mas sim um guia que ajuda a escolher uma alimentação saudável, através de alimentos variados, em quantidades moderadas, garantindo os nutrientes necessários para a sua saúde.</string>
     <string name="alim_piramid_text_2">Os alimentos são formados por nutrientes. Assim sendo, os alimentos estão distribuídos na pirâmide alimentar em quatro níveis, com oito grupos de acordo com o nutriente que mais se destaca na sua composição. Os alimentos que estão no mesmo grupo possuem nutrientes e valor nutritivo semelhantes.</string>
     <string name="porcoes_text_1">Mas o que é uma porção? É a quantidade certa do alimento pronto que uma pessoa precisa comer de acordo com a sua idade e tamanho.\nA quantidade de calorias necessárias para uma adolescente, que está em plena fase de crescimento, é muito diferente da de um adulto, que já parou de se desenvolver faz tempo.</string>
     <string name="porcoes_text_2">Anota ai: você precisa de uma média de 2000 calorias por dia.</string>
     <string name="porcoes_text_3">As tabelas abaixo apresentam, para cada grupo, o valor calórico médio de uma porção, exemplos de alimentos e as medidas caseiras que você precisa diariamente.</string>
     <string name="porcoes_tabela_1">Grupo de pães, cereais, tubérculos e raízes -consuma 6 porções por dia</string>
-    <string name="porcoes_descricao_1">Arroz branco/Macarrão = 4 colheres de sopa\nBatata cozida =1 e ½ unidade\nBiscoito tipo “cream cracker”= 5 unidades\nFarinha de mandioca= 2 colheres de sopa\nPão francês= 1 unidade Torrada salgada= 4 unidades Pão de forma tradicional =2 fatias</string>
+    <string name="porcoes_descricao_1">Arroz branco/Macarrão = 4 colheres de sopa\nBatata cozida =1 e ½ unidade\nBiscoito tipo “cream cracker”= 5 unidades\nFarinha de mandioca= 2 colheres de sopa\nPão francês= 1 unidade\nTorrada salgada= 4 unidades Pão de forma tradicional =2 fatias</string>
     <string name="porcoes_tabela_2">Grupo das Verduras e legumes – consuma três porções ao dia</string>
     <string name="porcoes_descricao_2">Abóbora cozida =1 e ½ colher de sopa\nAlface= 15 folhas\nBeterraba crua ralada= 2 colheres de sopa\nBrócolis cozido= 4 e ½ colheres de sopa\nCenoura crua (picada)= 1 colher de servir\nPepino picado= 4 colheres de sopa\nRúcula =15 folhas\nTomate comum =4 fatias</string>
     <string name="porcoes_tabela_3">Frutas – consuma três porções ao dia</string>
@@ -218,4 +218,18 @@
         <item>F</item>
         <item>M</item>
     </string-array>
+
+    <!-- Direitos e deveres -->
+    <string name="deveres_1">Direito a  educação</string>
+    <string name="deveres_2">Compromisso de estudar e zelar pela escola</string>
+    <string name="deveres_3">Direito a liberdade e a Dignidade</string>
+    <string name="deveres_4">Compromisso de respeitar as pessoas e as leis sociais</string>
+    <string name="deveres_5">Direito a saúde</string>
+    <string name="deveres_6">Compromisso de cuidar e conhecer seu corpo, cuidar da sua saúde, adotar uma boa alimentação e cuidado com a higiene</string>
+    <string name="deveres_7">Direito a saúde sexual e reprodutiva</string>
+    <string name="deveres_8">Compromisso de se cuidar e de se prevenir usando a camisinha em todas as relações sexuais</string>
+    <string name="deveres_9">Direito a Cultura</string>
+    <string name="deveres_10">Compromisso de zelar e cuidar dos patrimônios e locais públicos</string>
+    <string name="deveres_11">Direito a ter direitos</string>
+    <string name="deveres_12">Compromisso de conhecer, exercer e lutar pela garantia de seus direitos e efetivação das políticas públicas</string>
 </resources>

@@ -1,9 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Direitos.DeverActivity">
+    tools:context=".Direitos.DeverActivity"
+    android:background="@drawable/fundoaltcut2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/grid_layout_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tDIREITOS E DEVERES\t"
+            android:textSize="20sp"
+            android:fontFamily="@font/aclonica"
+            android:background="@drawable/main_title"
+            android:layout_marginBottom="@dimen/title_margin_duplo_top"
+            android:gravity="center"
+            android:textColor="@color/purple"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temos nossos direitos, mas temos que pensar e colocar em pratica os nossos compromissos"
+            android:textSize="@dimen/text_subtitle_size"
+            android:textStyle="bold"
+            android:textColor="@color/text_content_color"
+            android:layout_marginBottom="@dimen/card_view_margin"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="375dp"
+            android:layout_height="500dp"
+            android:layout_marginBottom="@dimen/title_margin_top"
+            android:background="@drawable/dire6"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/title_margin_top"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/dever_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell"
+                android:text="<"
+                android:layout_marginEnd="@dimen/card_view_margin"
+                android:layout_marginRight="@dimen/card_view_margin"
+                android:textStyle="bold"
+               />
+
+            <Button
+                android:id="@+id/dever_forward_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell"
+                android:layout_marginStart="@dimen/card_view_margin"
+                android:layout_marginLeft="@dimen/card_view_margin"
+                android:text=">"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

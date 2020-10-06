@@ -11,6 +11,7 @@
     <color name="black">#000000</color>
     <color name="text_content_color">#000000</color>
     <color name="transparente">#00000000</color>
+    <color name="semitransparente">#bfffffff</color>
 
     <color name="yellow">#FFFF00</color>
     <color name="fuchsia">#FF00FF</color>

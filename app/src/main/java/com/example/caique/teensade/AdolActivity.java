@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.caique.teensade.Adolescencia.ConhecerActivity;
+import com.example.caique.teensade.Utilidades.TypefaceUtil;
 
 public class AdolActivity extends AppCompatActivity implements View.OnClickListener {
     private Button mAdolBtn;
@@ -26,30 +27,30 @@ public class AdolActivity extends AppCompatActivity implements View.OnClickListe
         WebView webViewTwo = findViewById(R.id.adol_web_2);
         WebView webViewThree = findViewById(R.id.adol_web_3);
 
-        String text;
-        text = "<html><body><p align=\"justify\">";
-        text+= getString(R.string.adol_text_1);
-        text+= "</p></body></html>";
-        webViewOne.loadData(text, "text/html", "utf-8");
+        String pish = "<html><head><style type=\"text/css\">@font-face {font-family: 'MyFont';src: url(\"file:///android_asset/fonts/ComingSoon.ttf\")}body {font-family: 'MyFont';font-size: medium;text-align: justify;}</style></head><body>";
+        String pas = "</body></html>";
+
+        String text1 = getString(R.string.adol_text_1);
+        String myHtmlString = pish + text1 + pas;
+        webViewOne.loadDataWithBaseURL(null,myHtmlString, "text/html", "UTF-8", null);
         webViewOne.setBackgroundColor(Color.TRANSPARENT);
         webViewOne.setLayerType(WebView.LAYER_TYPE_SOFTWARE, null);
 
-        String text2;
-        text2 = "<html><body><p align=\"justify\">";
-        text2+= getString(R.string.adol_text_2);
+        String text2 = getString(R.string.adol_text_2);
         text2+="<br><br>•\tPré-adolescência – dos 10 aos 14 anos;";
         text2+="<br><br>•\tAdolescência – dos 15 aos 19 anos completos;";
-        text2+="<br><br>•\tJuventude – dos 15 aos 24 anos.";
-        text2+= "</p></body></html>";
-        webViewTwo.loadData(text2, "text/html", "utf-8");
+        text2+="<br><br>•\tJuventude – dos 15 aos 24 anos.</p>";
+        myHtmlString = pish + text2 + pas;
+        webViewTwo.loadDataWithBaseURL(null,myHtmlString, "text/html", "UTF-8", null);
         webViewTwo.setBackgroundColor(Color.TRANSPARENT);
         webViewTwo.setLayerType(WebView.LAYER_TYPE_SOFTWARE, null);
 
         String text3;
         text3 = "<html><body><p align=\"justify\">";
         text3+= getString(R.string.adol_text_3);
-        text3+= "</p></body></html>";
-        webViewThree.loadData(text3, "text/html", "utf-8");
+        text3+= "</p>";
+        myHtmlString = pish + text3 + pas;
+        webViewThree.loadDataWithBaseURL(null,myHtmlString, "text/html", "UTF-8", null);
         webViewThree.setBackgroundColor(Color.TRANSPARENT);
         webViewThree.setLayerType(WebView.LAYER_TYPE_SOFTWARE, null);
 

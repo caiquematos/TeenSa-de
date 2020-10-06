@@ -19,8 +19,9 @@
             android:layout_gravity="center"
             android:layout_margin="@dimen/title_margin_duplo_top"
             android:fontFamily="@font/aclonica"
-            android:text="TEEN SAÚDE"
-            android:textColor="@color/colorAccent"
+            android:text="\tTEEN SAÚDE\t"
+            android:background="@drawable/main_title"
+            android:textColor="@color/purple"
             android:textSize="30sp"
             android:textStyle="bold" />
 

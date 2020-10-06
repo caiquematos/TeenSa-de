@@ -14,11 +14,22 @@
         android:padding="@dimen/grid_layout_margin">
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tADOLESCÊNCIA\t"
+            android:textSize="20sp"
+            android:fontFamily="@font/aclonica"
+            android:background="@drawable/main_title"
+            android:layout_marginBottom="@dimen/title_margin_duplo_top"
+            android:gravity="center"
+            android:textColor="@color/purple"/>
+
+        <TextView
             android:id="@+id/adol_text_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/card_view_margin"
-            android:fontFamily="sans-serif"
+            android:fontFamily="@font/coming_soon"
             android:gravity="center"
             android:text="@string/adol_text_title"
             android:textColor="@color/text_content_color"
@@ -34,8 +45,8 @@
             />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
             android:layout_marginBottom="@dimen/card_view_margin"
             android:background="@drawable/adol_text"/>
 
@@ -63,6 +74,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/text_subtitle_size"
+                    android:fontFamily="@font/coming_soon"
                     android:text="E aí? Em que fase você está?"
                     android:textColor="@color/white"
                     android:textStyle="bold"
@@ -125,6 +137,7 @@
             android:text="@string/adol_text_4"
             android:textStyle="bold"
             android:textColor="@color/text_content_color"
+            android:fontFamily="@font/coming_soon"
             android:layout_margin="@dimen/card_view_margin"/>
 
         <Button
